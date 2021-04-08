@@ -2,11 +2,11 @@
 
 🚀
 
-Right now this is under construction. Cheers.
+Right now this website is under construction. Cheers.
 
 ### Choosing an activity 
 
-I have programmed a search bar to crawl my favourite maths resources, to limit time hunting through google.
+I have programmed a search bar to crawl my favourite maths websites to limit time spent hunting through google.
 
 <script async src="https://cse.google.com/cse.js?cx=3272051fa9ad652ee"></script>
 <div class="gcse-search"></div>
