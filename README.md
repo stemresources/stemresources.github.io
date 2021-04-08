@@ -13,7 +13,7 @@ I have programmed a search bar to crawl my favourite maths resources, to limit t
 
 The search currently indexes the following websites:
 
-```YAML
+```markdown
 https://gflechy.com
 https://au.ixl.com/math/
 https://mathsci2.appstate.edu/~sjg/simpsonsmath/
@@ -24,3 +24,4 @@ https://tapintoteenminds.com/3acts-by-common-core/grade5-ccss/
 https://www.australiancurriculumlessons.com.au/
 https://www.bbc.co.uk/bitesize
 https://www.education.com/
+'''
