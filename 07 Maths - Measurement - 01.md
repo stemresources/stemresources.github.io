@@ -1,8 +1,8 @@
 ---
-title: Measurement
-parent: 7Maths
+title: Measurement - 01
+parent: 07 Maths
 grand_parent: Lesson Plans
-nav_order: 4
+nav_order: 1
 ---
 
 # Measurement
