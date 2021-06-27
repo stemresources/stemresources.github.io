@@ -1,7 +1,7 @@
 ---
-title: Unit 01 - Measurement
+title: 01 Measurement - Lesson 1
 parent: 7Maths
-grand_parent: Test
+grand_parent: Lesson Plans
 nav_order: 1
 ---
 
