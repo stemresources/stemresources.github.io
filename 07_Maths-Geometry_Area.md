@@ -3,19 +3,18 @@ title: Geometry - Area Introduction
 parent: 07 Maths
 grand_parent: Lesson Plans
 nav_order: 1
+marp: true
 ---
 
 # Area
 
 *Resources:* 
 
-[Shady Shapes Handout](/assets/07Maths/geometry-01-shady_shapes.pdf) | [Area of a Rectangle Booklet](/assets/07Maths/geometry-01-area_rectangle_booklet.pdf) | 
+[Shady Shapes Handout](stemresources.github.io/assets/07Maths/geometry-01-shady_shapes.pdf %}) | [Area of a Rectangle Booklet]({% link /assets/07Maths/geometry-01-area_rectangle_booklet.pd %}) | 
 
 Mini-whiteboards | [pHet - Area Builder 1.1.20](https://phet.colorado.edu/en/simulation/area-builder)
 
 ---
-
-
 
 ## Do Now: Shady Shapes
 
@@ -73,7 +72,7 @@ Any other examples can you think of?
 
 ---
 
-## What is a rectangle
+## What is a rectangle?
 
 
 
