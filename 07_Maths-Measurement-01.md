@@ -2,32 +2,8 @@
 title: Measurement - 01
 parent: 07 Maths
 grand_parent: Lesson Plans
-nav_order: 1
+nav_order: 1Lesson Aim
 ---
-
-# Measurement
-
-| Unit                   | Lesson |
-| ---------------------- | :----: |
-| Measurement & Geometry |   1    |
-
----
-
-## Do Now
-
-Numeracy Ninja Task.
-
-5 mins {: .label }
-
-----
-
-{: .label }
-
-5 mins
-
-----
-
-## Lesson Aim
 
 ### Learning Intention
 
@@ -40,3 +16,15 @@ I can....
 -----
 
 ## Activity
+
+Testing out KATEX equations...
+
+$$
+\begin{align}
+area &= \pi r^2 \\newline
+300 &= 3.14 \times r^2 \\newline
+\frac{300}{3.14} &= r^2 \\newline
+\sqrt{\frac{300}{3.14}} &= r \\newline
+\end{align}
+$$
+That's it!
