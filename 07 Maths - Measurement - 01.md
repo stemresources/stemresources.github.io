@@ -17,9 +17,7 @@ nav_order: 1
 
 Numeracy Ninja Task.
 
-5 mins
-
-{: .label }
+5 mins {: .label }
 
 ----
 
