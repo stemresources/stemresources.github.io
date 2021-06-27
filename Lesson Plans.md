@@ -6,4 +6,3 @@ nav_order: 2
 
 # STEM Lesson Plans
 
-

@@ -2,7 +2,7 @@
 title: 7Maths
 parent: Lesson Plans
 has_children: true
-nav_order: 1
+nav_order: 3
 ---
 
 # Year 7 Mathematics
@@ -15,4 +15,3 @@ nav_order: 1
 1. TOC
 {:toc}
 </details>
-
