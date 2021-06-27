@@ -10,11 +10,13 @@ marp: true
 
 *Resources:* 
 
-[Shady Shapes Handout](stemresources.github.io/assets/07Maths/geometry-01-shady_shapes.pdf %}) | [Area of a Rectangle Booklet]({% link /assets/07Maths/geometry-01-area_rectangle_booklet.pd %}) | 
+[Shady Shapes Handout](/assets/07Maths/geometry-01-shady_shapes.pdf) | [Area of a Rectangle Booklet](/assets/07Maths/geometry-01-area_rectangle_booklet.pdf) | 
 
 Mini-whiteboards | [pHet - Area Builder 1.1.20](https://phet.colorado.edu/en/simulation/area-builder)
 
 ---
+
+
 
 ## Do Now: Shady Shapes
 
@@ -82,48 +84,22 @@ Any other examples can you think of?
 
 ## Area of a Rectangle
 
-$$
-Area_{rectangle} = width \times height
-$$
-
-
+$Area_{rectangle} = width \times height$
 
 STEP 1 – Write down formula
 STEP 2 – Substitute values and calculate area.
 STEP 3 – Show your units.
 
-
-
 ---
 
-End.
+## Example
 
----
 
-Compiling lesson using Marp in the Command Prompt:
+$$
+\begin{align*}
+Area_{rectangle} &= width \times height \\
+ &= 10 cm \times 10 cm \\
+ &= 100 cm^2
+\end{align*}
+$$
 
-```shell
-cd C:\Users\Lochlan\Documents\GitHub\stemresources.github.io
-
-SET markdownfile=[filename].md
-
-# Convert slide deck into HTML
-# npx @marp-team/marp-cli ECHO %markdownfile%
-# npx @marp-team/marp-cli %markdownfile% -o output.html
-
-# Convert slide deck into PDF
-npx @marp-team/marp-cli %markdownfile% --pdf
-npx @marp-team/marp-cli %markdownfile% -o output.pdf
-
-# Convert slide deck into PowerPoint document (PPTX)
-npx @marp-team/marp-cli %markdownfile% --pptx
-npx @marp-team/marp-cli %markdownfile% -o output.pptx
-
-# Watch mode
-npx @marp-team/marp-cli -w %markdownfile%
-
-# Server mode (Pass directory to serve)
-npx @marp-team/marp-cli -s ./slides
-```
-
-[filename]: 07_Maths-Geometry_Area
