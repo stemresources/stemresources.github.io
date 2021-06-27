@@ -9,7 +9,13 @@ nav_order: 1
 
 *Resources:* 
 
-[Shady Shapes Handout](/assets/07Maths/geometry-01-shady_shapes.pdf) | [Area of a Rectangle Booklet](/assets/07Maths/geometry-01-area_rectangle_booklet.pdf) | Mini-whiteboards | [pHet - Area Builder 1.1.20](https://phet.colorado.edu/en/simulation/area-builder)
+[Shady Shapes Handout](/assets/07Maths/geometry-01-shady_shapes.pdf) | [Area of a Rectangle Booklet](/assets/07Maths/geometry-01-area_rectangle_booklet.pdf) | 
+
+Mini-whiteboards | [pHet - Area Builder 1.1.20](https://phet.colorado.edu/en/simulation/area-builder)
+
+---
+
+
 
 ## Do Now: Shady Shapes
 
@@ -31,10 +37,6 @@ Did anyone find a fast way to add up the number of squares?
 ### Learning Intention
 
 Students will be able to Find the formula for the area of a rectangle. (VCMMG258).
-
-{: .label}
-
-5 mins
 
 ### Success Criteria
 
@@ -81,14 +83,47 @@ Any other examples can you think of?
 
 ## Area of a Rectangle
 
-```
 $$
-Area\textsubscript{rectangle} = width x height
+Area_{rectangle} = width \times height
 $$
-```
 
 
 
 STEP 1 – Write down formula
 STEP 2 – Substitute values and calculate area.
 STEP 3 – Show your units.
+
+
+
+---
+
+End.
+
+---
+
+Compiling lesson using Marp in the Command Prompt:
+
+```
+CD C:\Users\...\Documents\GitHub\stemresources.github.io
+
+# Convert slide deck into HTML
+# npx @marp-team/marp-cli [filename].md
+# npx @marp-team/marp-cli [filename].md -o output.html
+
+# Convert slide deck into PDF
+npx @marp-team/marp-cli [filename].md --pdf
+npx @marp-team/marp-cli [filename].md -o output.pdf
+
+# Convert slide deck into PowerPoint document (PPTX)
+npx @marp-team/marp-cli [filename].md --pptx
+npx @marp-team/marp-cli [filename].md -o output.pptx
+
+# Watch mode
+npx @marp-team/marp-cli -w 07_Maths-Measurement-01.md
+
+# Server mode (Pass directory to serve)
+npx @marp-team/marp-cli -s ./slides
+
+```
+
+[filename]: 07_Maths-Geometry_Area
