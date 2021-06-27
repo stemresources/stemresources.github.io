@@ -103,27 +103,28 @@ End.
 
 Compiling lesson using Marp in the Command Prompt:
 
-```
-CD C:\Users\...\Documents\GitHub\stemresources.github.io
+```shell
+cd C:\Users\Lochlan\Documents\GitHub\stemresources.github.io
+
+SET markdownfile=[filename].md
 
 # Convert slide deck into HTML
-# npx @marp-team/marp-cli [filename].md
-# npx @marp-team/marp-cli [filename].md -o output.html
+# npx @marp-team/marp-cli ECHO %markdownfile%
+# npx @marp-team/marp-cli %markdownfile% -o output.html
 
 # Convert slide deck into PDF
-npx @marp-team/marp-cli [filename].md --pdf
-npx @marp-team/marp-cli [filename].md -o output.pdf
+npx @marp-team/marp-cli %markdownfile% --pdf
+npx @marp-team/marp-cli %markdownfile% -o output.pdf
 
 # Convert slide deck into PowerPoint document (PPTX)
-npx @marp-team/marp-cli [filename].md --pptx
-npx @marp-team/marp-cli [filename].md -o output.pptx
+npx @marp-team/marp-cli %markdownfile% --pptx
+npx @marp-team/marp-cli %markdownfile% -o output.pptx
 
 # Watch mode
-npx @marp-team/marp-cli -w 07_Maths-Measurement-01.md
+npx @marp-team/marp-cli -w %markdownfile%
 
 # Server mode (Pass directory to serve)
 npx @marp-team/marp-cli -s ./slides
-
 ```
 
 [filename]: 07_Maths-Geometry_Area
