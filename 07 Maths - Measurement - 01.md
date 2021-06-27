@@ -19,9 +19,9 @@ Numeracy Ninja Task.
 
 {: .label } 5mins
 
-{:5 mins .label }
+{: .label }
 
-{5 mins: .label }
+5 mins
 
 ----
 
